@@ -8,9 +8,9 @@
   </head>
   <body>
     <h1>404 Not Found</h1>
-    <p>リクエストURL　：　<?php print((empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]); ?></p>
+    <p>リクエストURL : <?php print((empty($_SERVER["HTTPS"]) ? "http://" : "https://") . $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"]); ?></p>
     <p>お探しのページは見つかりませんでした。URLを確認して再アクセスをして下さい。</p>
-    <p><a href="/">トップページへ戻る</a></p>
+    <p><a href="index.html">トップページへ戻る</a></p>
     <hr>
     <p>2012-2015 Euphoria Time. Designed by <a href="javascript:void(0)">Naba</a>.</p>
   </body>
